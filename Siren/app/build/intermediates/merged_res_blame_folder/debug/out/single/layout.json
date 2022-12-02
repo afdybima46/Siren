@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.siren.app-mergeDebugResources-28:/layout/fragment_recommended.xml",
+        "source": "com.example.siren.app-main-31:/layout/fragment_recommended.xml"
+    },
+    {
+        "merged": "com.example.siren.app-mergeDebugResources-28:/layout/activity_main.xml",
+        "source": "com.example.siren.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.siren.app-mergeDebugResources-28:/layout/fragment_favorite.xml",
+        "source": "com.example.siren.app-main-31:/layout/fragment_favorite.xml"
+    },
+    {
+        "merged": "com.example.siren.app-mergeDebugResources-28:/layout/fragment_home.xml",
+        "source": "com.example.siren.app-main-31:/layout/fragment_home.xml"
+    }
+]
