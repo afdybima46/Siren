@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.siren.app-mergeDebugResources-27:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.example.siren.app-mergeDebugResources-43:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rully\\.gradle\\caches\\transforms-3\\11918c9aa544653f8c45c32ea9ac02b8\\transformed\\material-1.7.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\rully\\.gradle\\caches\\transforms-3\\a09ecbe6fd1fede9e0ea7a9ee8ea14ad\\transformed\\material-1.7.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

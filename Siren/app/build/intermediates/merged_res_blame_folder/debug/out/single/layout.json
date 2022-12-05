@@ -1,18 +1,30 @@
 [
     {
-        "merged": "com.example.siren.app-mergeDebugResources-28:/layout/fragment_recommended.xml",
-        "source": "com.example.siren.app-main-31:/layout/fragment_recommended.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-mergeDebugResources-44:\\layout\\fragment_favorite.xml",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\fragment_favorite.xml"
     },
     {
-        "merged": "com.example.siren.app-mergeDebugResources-28:/layout/activity_main.xml",
-        "source": "com.example.siren.app-main-31:/layout/activity_main.xml"
+        "merged": "com.example.siren.app-mergeDebugResources-44:/layout/fragment_home.xml",
+        "source": "com.example.siren.app-main-47:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.siren.app-mergeDebugResources-28:/layout/fragment_favorite.xml",
-        "source": "com.example.siren.app-main-31:/layout/fragment_favorite.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-mergeDebugResources-44:\\layout\\fragment_recommended.xml",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\fragment_recommended.xml"
     },
     {
-        "merged": "com.example.siren.app-mergeDebugResources-28:/layout/fragment_home.xml",
-        "source": "com.example.siren.app-main-31:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-mergeDebugResources-44:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-mergeDebugResources-44:\\layout\\fragment_video.xml",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\fragment_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-mergeDebugResources-44:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\fragment_profile.xml"
     }
 ]

@@ -4,6 +4,7 @@ package com.example.siren.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,6 +23,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final FrameLayout flTabs;
+
+  @NonNull
   public final TabLayout tabs;
 
   @NonNull
@@ -33,9 +37,11 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final ViewPager2 viewPager;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TabLayout tabs,
-      @NonNull TextView tvHello, @NonNull TextView tvUser, @NonNull ViewPager2 viewPager) {
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull FrameLayout flTabs,
+      @NonNull TabLayout tabs, @NonNull TextView tvHello, @NonNull TextView tvUser,
+      @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
+    this.flTabs = flTabs;
     this.tabs = tabs;
     this.tvHello = tvHello;
     this.tvUser = tvUser;
@@ -69,6 +75,12 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.flTabs;
+      FrameLayout flTabs = ViewBindings.findChildViewById(rootView, id);
+      if (flTabs == null) {
+        break missingId;
+      }
+
       id = R.id.tabs;
       TabLayout tabs = ViewBindings.findChildViewById(rootView, id);
       if (tabs == null) {
@@ -93,7 +105,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, tabs, tvHello, tvUser, viewPager);
+      return new FragmentHomeBinding((ConstraintLayout) rootView, flTabs, tabs, tvHello, tvUser,
+          viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

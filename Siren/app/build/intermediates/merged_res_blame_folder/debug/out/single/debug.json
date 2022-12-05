@@ -1,102 +1,126 @@
 [
     {
-        "merged": "com.example.siren.app-merged_res-29:/xml_backup_rules.xml.flat",
-        "source": "com.example.siren.app-main-31:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/drawable_ic_account_circle.xml.flat",
-        "source": "com.example.siren.app-main-31:/drawable/ic_account_circle.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-pngs-40:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\layout_fragment_favorite.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\fragment_favorite.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/layout_fragment_favorite.xml.flat",
-        "source": "com.example.siren.app-main-31:/layout/fragment_favorite.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\drawable_bg_tab_indicator.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\drawable\\bg_tab_indicator.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.example.siren.app-main-31:/layout/activity_main.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\drawable\\ic_home.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/layout_fragment_recommended.xml.flat",
-        "source": "com.example.siren.app-main-31:/layout/fragment_recommended.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.siren.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\layout_fragment_recommended.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\fragment_recommended.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.siren.app-main-31:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/layout_fragment_home.xml.flat",
-        "source": "com.example.siren.app-main-31:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/drawable_ic_video.xml.flat",
-        "source": "com.example.siren.app-main-31:/drawable/ic_video.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/drawable_bottom_nav_selector.xml.flat",
-        "source": "com.example.siren.app-main-31:/drawable/bottom_nav_selector.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\drawable_bg_tab.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\drawable\\bg_tab.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\drawable_bottom_nav_selector.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\drawable\\bottom_nav_selector.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/drawable_ic_home.xml.flat",
-        "source": "com.example.siren.app-main-31:/drawable/ic_home.xml"
+        "merged": "com.example.siren.app-merged_res-45:/layout_fragment_home.xml.flat",
+        "source": "com.example.siren.app-main-47:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.siren.app-main-31:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.siren.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.siren.app-merged_res-29:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.example.siren.app-main-31:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\drawable_ic_account_circle.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\drawable\\ic_account_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\layout_fragment_video.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\layout\\fragment_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-merged_res-45:\\drawable_ic_video.xml.flat",
+        "source": "C:\\Users\\rully\\.gradle\\daemon\\7.4\\com.example.siren.app-main-47:\\drawable\\ic_video.xml"
     }
 ]

@@ -7,6 +7,8 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable bg_tab
+drawable bg_tab_indicator
 drawable bottom_nav_selector
 drawable ic_account_circle
 drawable ic_home
@@ -17,6 +19,10 @@ id actionHome
 id actionProfile
 id actionVideo
 id bottomNavigationView
+id flFragment
+id flTabs
+id navHostFragment
+id nav_graph
 id tabs
 id tvHello
 id tvUser
@@ -24,10 +30,13 @@ id viewPager
 layout activity_main
 layout fragment_favorite
 layout fragment_home
+layout fragment_profile
 layout fragment_recommended
+layout fragment_video
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+navigation nav_graph
 string app_name
 string favorite
 string hello

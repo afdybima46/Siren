@@ -30,19 +30,36 @@
         app:layout_constraintTop_toTopOf="@id/tvHello"
         tools:text="Some User" />
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabs"
+    <FrameLayout
+        android:id="@+id/flTabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvHello" />
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_tab"
+        app:layout_constraintTop_toBottomOf="@id/tvHello">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:tabIndicator="@drawable/bg_tab_indicator"
+            app:tabIndicatorColor="#FF9D92"
+            app:tabIndicatorGravity="center"
+            app:tabIndicatorHeight="42dp"
+            app:tabPadding="10dp" />
+
+    </FrameLayout>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tabs" />
+        app:layout_constraintTop_toBottomOf="@id/flTabs" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

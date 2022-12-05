@@ -4,9 +4,11 @@ package com.example.siren.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.siren.R;
@@ -22,10 +24,19 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final BottomNavigationView bottomNavigationView;
 
+  @NonNull
+  public final FrameLayout flFragment;
+
+  @NonNull
+  public final FragmentContainerView navHostFragment;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull BottomNavigationView bottomNavigationView) {
+      @NonNull BottomNavigationView bottomNavigationView, @NonNull FrameLayout flFragment,
+      @NonNull FragmentContainerView navHostFragment) {
     this.rootView = rootView;
     this.bottomNavigationView = bottomNavigationView;
+    this.flFragment = flFragment;
+    this.navHostFragment = navHostFragment;
   }
 
   @Override
@@ -61,7 +72,20 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigationView);
+      id = R.id.flFragment;
+      FrameLayout flFragment = ViewBindings.findChildViewById(rootView, id);
+      if (flFragment == null) {
+        break missingId;
+      }
+
+      id = R.id.navHostFragment;
+      FragmentContainerView navHostFragment = ViewBindings.findChildViewById(rootView, id);
+      if (navHostFragment == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigationView, flFragment,
+          navHostFragment);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
