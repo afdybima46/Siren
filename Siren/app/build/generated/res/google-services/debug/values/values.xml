@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">322179283121-pa8nb5983ucpdjm5cfo312eet474kpi2.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://siren-capstone-msib-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">322179283121</string>
+    <string name="google_api_key" translatable="false">AIzaSyBNnrCcdYCLKcatKqeDiCr_VfmDC7iERww</string>
+    <string name="google_app_id" translatable="false">1:322179283121:android:44da91faf4a912f6094a90</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBNnrCcdYCLKcatKqeDiCr_VfmDC7iERww</string>
+    <string name="google_storage_bucket" translatable="false">siren-capstone-msib.appspot.com</string>
+    <string name="project_id" translatable="false">siren-capstone-msib</string>
+</resources>

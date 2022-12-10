@@ -9,6 +9,9 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.siren.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
+enum class ProviderType{
+    BASIC
+}
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

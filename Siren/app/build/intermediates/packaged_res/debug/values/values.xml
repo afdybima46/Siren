@@ -8,12 +8,25 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Siren</string>
+    <string name="default_web_client_id" translatable="false">322179283121-pa8nb5983ucpdjm5cfo312eet474kpi2.apps.googleusercontent.com</string>
+    <string name="email">Email</string>
     <string name="favorite">Favorite(s)</string>
+    <string name="firebase_database_url" translatable="false">https://siren-capstone-msib-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">322179283121</string>
+    <string name="google_api_key" translatable="false">AIzaSyBNnrCcdYCLKcatKqeDiCr_VfmDC7iERww</string>
+    <string name="google_app_id" translatable="false">1:322179283121:android:44da91faf4a912f6094a90</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBNnrCcdYCLKcatKqeDiCr_VfmDC7iERww</string>
+    <string name="google_storage_bucket" translatable="false">siren-capstone-msib.appspot.com</string>
     <string name="hello">Hai, </string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
     <string name="profile">Profil</string>
+    <string name="project_id" translatable="false">siren-capstone-msib</string>
     <string name="recommended">Rekomendasi</string>
+    <string name="register">Register</string>
+    <string name="user">" User"</string>
     <string name="video">Video</string>
     <style name="Theme.Siren" parent="Theme.AppCompat.Light.DarkActionBar">
         

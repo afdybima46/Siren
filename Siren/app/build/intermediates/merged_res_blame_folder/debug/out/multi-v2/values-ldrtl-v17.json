@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.siren.app-mergeDebugResources-43:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.siren.app-mergeDebugResources-51:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rully\\.gradle\\caches\\transforms-3\\a09ecbe6fd1fede9e0ea7a9ee8ea14ad\\transformed\\material-1.7.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\rully\\.gradle\\caches\\transforms-3\\92c342f94f8b0aa0a1332dad0e40f563\\transformed\\material-1.7.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

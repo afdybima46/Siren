@@ -9,7 +9,9 @@
         android:id="@+id/actionHome"
         android:name="com.example.siren.views.home.HomeFragment"
         android:label="Home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
     <fragment
         android:id="@+id/actionProfile"
         android:name="com.example.siren.views.profile.ProfileFragment"
@@ -19,5 +21,22 @@
         android:name="com.example.siren.views.video.VideoFragment"
         android:label="fragment_video"
         tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.siren.views.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/recommendedFragment"
+        android:name="com.example.siren.views.home.RecommendedFragment"
+        android:label="fragment_recommended"
+        tools:layout="@layout/fragment_recommended" >
+
+    </fragment>
+    <activity
+        android:id="@+id/detailActivity"
+        android:name="com.example.siren.views.detail.DetailActivity"
+        android:label="activity_detail"
+        tools:layout="@layout/activity_detail" />
 
 </navigation>

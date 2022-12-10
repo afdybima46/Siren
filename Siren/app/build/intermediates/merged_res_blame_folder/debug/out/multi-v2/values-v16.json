@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.siren.app-mergeDebugResources-43:/values-v16/values-v16.xml",
+            "outputFile": "com.example.siren.app-mergeDebugResources-51:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rully\\.gradle\\caches\\transforms-3\\d1c92c909436758ce96ccb43f74f314b\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\rully\\.gradle\\caches\\transforms-3\\23f56a635360545581c908e87c6926a9\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rully\\.gradle\\caches\\transforms-3\\5860f926a0ece716128c1d91d2667126\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rully\\.gradle\\caches\\transforms-3\\9f8d9894fa7f1b7db42ef353811bb374\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]
