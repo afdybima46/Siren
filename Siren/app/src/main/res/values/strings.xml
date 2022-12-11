@@ -14,4 +14,14 @@
     <string name="login">Login</string>
     <string name="name">Name</string>
     <string name="user">" User"</string>
+    <string name="txt_intro">Mencari informasi dan berbagai tips-tips menarik tentang mendidik anak kini jauh lebih mudah.</string>
+    <string name="txt_input">Masukkan Data Anda</string>
+    <string name="txt_dont_have_account">Belum punya akun?</string>
+    <string name="txt_login_google">Atau login dengan</string>
+
+    <string name="email_pattern_error">Email is not valid.</string>
+    <string name="field_empty">Field cannot be empty</string>
+    <string name="password_length_error">Min. length password is 6 characters.</string>
+    <string name="txt_have_account">Punya kun?</string>
+    <string name="txt_register_google">Atau daftar dengan</string>
 </resources>

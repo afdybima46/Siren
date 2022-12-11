@@ -5,14 +5,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.siren.R;
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
+import com.example.siren.views.customview.EmailEditText;
+import com.example.siren.views.customview.PasswordEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,29 +26,64 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageButton btnGoogle;
+
+  @NonNull
   public final Button btnLogin;
 
   @NonNull
-  public final TextInputEditText etEmail;
+  public final TextView btnRegister;
 
   @NonNull
-  public final TextInputEditText etPassword;
+  public final EmailEditText etEmail;
 
   @NonNull
-  public final TextInputLayout tiEmail;
+  public final PasswordEditText etPassword;
 
   @NonNull
-  public final TextInputLayout tiPassword;
+  public final ImageView ivLogin;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogin,
-      @NonNull TextInputEditText etEmail, @NonNull TextInputEditText etPassword,
-      @NonNull TextInputLayout tiEmail, @NonNull TextInputLayout tiPassword) {
+  @NonNull
+  public final LinearLayout linearLayout1;
+
+  @NonNull
+  public final TextView tvAcc;
+
+  @NonNull
+  public final TextView tvInputLogin;
+
+  @NonNull
+  public final TextView tvLogin;
+
+  @NonNull
+  public final TextView tvLoginGoogle;
+
+  @NonNull
+  public final View viewLine1;
+
+  @NonNull
+  public final View viewLine2;
+
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton btnGoogle,
+      @NonNull Button btnLogin, @NonNull TextView btnRegister, @NonNull EmailEditText etEmail,
+      @NonNull PasswordEditText etPassword, @NonNull ImageView ivLogin,
+      @NonNull LinearLayout linearLayout1, @NonNull TextView tvAcc, @NonNull TextView tvInputLogin,
+      @NonNull TextView tvLogin, @NonNull TextView tvLoginGoogle, @NonNull View viewLine1,
+      @NonNull View viewLine2) {
     this.rootView = rootView;
+    this.btnGoogle = btnGoogle;
     this.btnLogin = btnLogin;
+    this.btnRegister = btnRegister;
     this.etEmail = etEmail;
     this.etPassword = etPassword;
-    this.tiEmail = tiEmail;
-    this.tiPassword = tiPassword;
+    this.ivLogin = ivLogin;
+    this.linearLayout1 = linearLayout1;
+    this.tvAcc = tvAcc;
+    this.tvInputLogin = tvInputLogin;
+    this.tvLogin = tvLogin;
+    this.tvLoginGoogle = tvLoginGoogle;
+    this.viewLine1 = viewLine1;
+    this.viewLine2 = viewLine2;
   }
 
   @Override
@@ -74,38 +113,87 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnGoogle;
+      ImageButton btnGoogle = ViewBindings.findChildViewById(rootView, id);
+      if (btnGoogle == null) {
+        break missingId;
+      }
+
       id = R.id.btnLogin;
       Button btnLogin = ViewBindings.findChildViewById(rootView, id);
       if (btnLogin == null) {
         break missingId;
       }
 
+      id = R.id.btnRegister;
+      TextView btnRegister = ViewBindings.findChildViewById(rootView, id);
+      if (btnRegister == null) {
+        break missingId;
+      }
+
       id = R.id.etEmail;
-      TextInputEditText etEmail = ViewBindings.findChildViewById(rootView, id);
+      EmailEditText etEmail = ViewBindings.findChildViewById(rootView, id);
       if (etEmail == null) {
         break missingId;
       }
 
       id = R.id.etPassword;
-      TextInputEditText etPassword = ViewBindings.findChildViewById(rootView, id);
+      PasswordEditText etPassword = ViewBindings.findChildViewById(rootView, id);
       if (etPassword == null) {
         break missingId;
       }
 
-      id = R.id.tiEmail;
-      TextInputLayout tiEmail = ViewBindings.findChildViewById(rootView, id);
-      if (tiEmail == null) {
+      id = R.id.ivLogin;
+      ImageView ivLogin = ViewBindings.findChildViewById(rootView, id);
+      if (ivLogin == null) {
         break missingId;
       }
 
-      id = R.id.tiPassword;
-      TextInputLayout tiPassword = ViewBindings.findChildViewById(rootView, id);
-      if (tiPassword == null) {
+      id = R.id.linearLayout1;
+      LinearLayout linearLayout1 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout1 == null) {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, btnLogin, etEmail, etPassword,
-          tiEmail, tiPassword);
+      id = R.id.tvAcc;
+      TextView tvAcc = ViewBindings.findChildViewById(rootView, id);
+      if (tvAcc == null) {
+        break missingId;
+      }
+
+      id = R.id.tvInputLogin;
+      TextView tvInputLogin = ViewBindings.findChildViewById(rootView, id);
+      if (tvInputLogin == null) {
+        break missingId;
+      }
+
+      id = R.id.tvLogin;
+      TextView tvLogin = ViewBindings.findChildViewById(rootView, id);
+      if (tvLogin == null) {
+        break missingId;
+      }
+
+      id = R.id.tvLoginGoogle;
+      TextView tvLoginGoogle = ViewBindings.findChildViewById(rootView, id);
+      if (tvLoginGoogle == null) {
+        break missingId;
+      }
+
+      id = R.id.viewLine1;
+      View viewLine1 = ViewBindings.findChildViewById(rootView, id);
+      if (viewLine1 == null) {
+        break missingId;
+      }
+
+      id = R.id.viewLine2;
+      View viewLine2 = ViewBindings.findChildViewById(rootView, id);
+      if (viewLine2 == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginBinding((ConstraintLayout) rootView, btnGoogle, btnLogin, btnRegister,
+          etEmail, etPassword, ivLogin, linearLayout1, tvAcc, tvInputLogin, tvLogin, tvLoginGoogle,
+          viewLine1, viewLine2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

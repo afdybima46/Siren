@@ -32,29 +32,19 @@ class LoginActivity : AppCompatActivity() {
             val email = binding.etEmail.text.toString()
             val password = binding.etPassword.text.toString()
 
-            if (email.isNotEmpty() && password.isNotEmpty()) {
-                auth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
-                    if (task.isSuccessful) {
-                        navigateToHome(
-                            task.result.user?.email ?: "",
-                            task.result.user?.uid ?: "",
-                            ProviderType.BASIC
-                        )
-                        finish()
-                        binding.etEmail.text?.clear()
-                        binding.etPassword.text?.clear()
-                    } else {
-                        showAlert()
-                        binding.etEmail.text?.clear()
-                        binding.etPassword.text?.clear()
-                    }
-                }.addOnFailureListener { exception ->
-                    exception.localizedMessage?.let { toast(this, it) }
+            auth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
+                if (task.isSuccessful) {
+                    navigateToHome(
+                        task.result.user?.email ?: "",
+                        task.result.user?.uid ?: "",
+                        ProviderType.BASIC
+                    )
+                    finish()
+                } else {
+                    showAlert()
                 }
-            } else if (email.isBlank()) {
-                binding.etEmail.error = "EMAIL REQUIRED"
-            } else if (password.isBlank()) {
-                binding.etPassword.error = "PASSWORD REQUIRED"
+            }.addOnFailureListener { exception ->
+                exception.localizedMessage?.let { toast(this, it) }
             }
         }
     }

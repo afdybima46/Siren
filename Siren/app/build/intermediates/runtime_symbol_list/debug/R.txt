@@ -2621,8 +2621,13 @@ int drawable abc_textfield_search_material 0x7f070070
 int drawable abc_vector_test 0x7f070071
 int drawable avd_hide_password 0x7f070072
 int drawable avd_show_password 0x7f070073
+int drawable bg_btn 0x7f0700f7
+int drawable bg_btn_register 0x7f0700f8
+int drawable bg_edit_text 0x7f0700f9
+int drawable bg_intro 0x7f0700fa
 int drawable bg_tab 0x7f070074
 int drawable bg_tab_indicator 0x7f070075
+int drawable bg_txt_btn 0x7f0700fb
 int drawable bottom_nav_selector 0x7f070076
 int drawable btn_checkbox_checked_mtrl 0x7f070077
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f070078
@@ -2660,6 +2665,8 @@ int drawable design_ic_visibility 0x7f070097
 int drawable design_ic_visibility_off 0x7f070098
 int drawable design_password_eye 0x7f070099
 int drawable design_snackbar_background 0x7f07009a
+int drawable family_1 0x7f0700fc
+int drawable google_img 0x7f0700fd
 int drawable googleg_disabled_color_18 0x7f07009b
 int drawable googleg_standard_color_18 0x7f07009c
 int drawable ic_account_circle 0x7f07009d
@@ -2680,6 +2687,8 @@ int drawable ic_mtrl_chip_close_circle 0x7f0700ab
 int drawable ic_share 0x7f0700ac
 int drawable ic_video 0x7f0700ad
 int drawable intro1 0x7f0700f6
+int drawable intro2 0x7f0700fe
+int drawable login_img 0x7f0700ff
 int drawable m3_appbar_background 0x7f0700ae
 int drawable m3_popupmenu_background_overlay 0x7f0700af
 int drawable m3_radiobutton_ripple 0x7f0700b0
@@ -2748,6 +2757,7 @@ int drawable notification_template_icon_bg 0x7f0700ee
 int drawable notification_template_icon_low_bg 0x7f0700ef
 int drawable notification_tile_bg 0x7f0700f0
 int drawable notify_panel_notification_icon_bg 0x7f0700f1
+int drawable register_img 0x7f070100
 int drawable test_level_drawable 0x7f0700f2
 int drawable toggle_favorite 0x7f0700f3
 int drawable tooltip_frame_dark 0x7f0700f4
@@ -2863,6 +2873,7 @@ int id browser_actions_menu_item_icon 0x7f08006b
 int id browser_actions_menu_item_text 0x7f08006c
 int id browser_actions_menu_items 0x7f08006d
 int id browser_actions_menu_view 0x7f08006e
+int id btnGoogle 0x7f080217
 int id btnLogin 0x7f08006f
 int id btnRegister 0x7f080070
 int id buttonPanel 0x7f080071
@@ -2972,6 +2983,7 @@ int id flip 0x7f0800d8
 int id floating 0x7f0800d9
 int id forever 0x7f0800da
 int id fragment_container_view_tag 0x7f0800db
+int id frameLayout 0x7f080218
 int id frost 0x7f0800dc
 int id fullscreen_header 0x7f0800dd
 int id ghost_view 0x7f0800de
@@ -3008,6 +3020,7 @@ int id itemLayout 0x7f0800fc
 int id item_touch_helper_previous_elevation 0x7f0800fd
 int id ivArticle 0x7f0800fe
 int id ivIntro 0x7f080216
+int id ivLogin 0x7f080219
 int id ivShare 0x7f0800ff
 int id jumpToEnd 0x7f080100
 int id jumpToStart 0x7f080101
@@ -3020,6 +3033,7 @@ int id light 0x7f080107
 int id line1 0x7f080108
 int id line3 0x7f080109
 int id linear 0x7f08010a
+int id linearLayout1 0x7f08021a
 int id listMode 0x7f08010b
 int id list_item 0x7f08010c
 int id locale 0x7f08010d
@@ -3235,9 +3249,6 @@ int id textinput_helper_text 0x7f0801df
 int id textinput_placeholder 0x7f0801e0
 int id textinput_prefix_text 0x7f0801e1
 int id textinput_suffix_text 0x7f0801e2
-int id tiEmail 0x7f0801e3
-int id tiName 0x7f0801e4
-int id tiPassword 0x7f0801e5
 int id time 0x7f0801e6
 int id title 0x7f0801e7
 int id titleDividerNoCustom 0x7f0801e8
@@ -3255,8 +3266,14 @@ int id transition_position 0x7f0801f3
 int id transition_scene_layoutid_cache 0x7f0801f4
 int id transition_transform 0x7f0801f5
 int id triangle 0x7f0801f6
+int id tvAcc 0x7f08021b
 int id tvCaption 0x7f0801f7
 int id tvHello 0x7f0801f8
+int id tvInputLogin 0x7f08021c
+int id tvIntro 0x7f08021d
+int id tvLogin 0x7f08021e
+int id tvLoginGoogle 0x7f08021f
+int id tvName 0x7f080220
 int id tvTag 0x7f0801f9
 int id tvTitle 0x7f0801fa
 int id tvUser 0x7f0801fb
@@ -3266,6 +3283,8 @@ int id unlabeled 0x7f0801fe
 int id up 0x7f0801ff
 int id useLogo 0x7f080200
 int id vertical_only 0x7f080201
+int id viewLine1 0x7f080221
+int id viewLine2 0x7f080222
 int id viewPager 0x7f080202
 int id view_offset_helper 0x7f080203
 int id view_transition 0x7f080204
@@ -3573,6 +3592,7 @@ int string common_signin_button_text_long 0x7f120039
 int string copy_toast_msg 0x7f12003a
 int string default_web_client_id 0x7f12003b
 int string email 0x7f12003c
+int string email_pattern_error 0x7f1200be
 int string error_a11y_label 0x7f12003d
 int string error_icon_content_description 0x7f12003e
 int string exposed_dropdown_menu_content_description 0x7f12003f
@@ -3582,6 +3602,7 @@ int string fallback_menu_item_copy_link 0x7f120042
 int string fallback_menu_item_open_in_browser 0x7f120043
 int string fallback_menu_item_share_link 0x7f120044
 int string favorite 0x7f120045
+int string field_empty 0x7f1200bf
 int string firebase_database_url 0x7f120046
 int string gcm_defaultSenderId 0x7f120047
 int string google_api_key 0x7f120048
@@ -3685,6 +3706,7 @@ int string name 0x7f1200a9
 int string nav_app_bar_navigate_up_description 0x7f1200aa
 int string nav_app_bar_open_drawer_description 0x7f1200ab
 int string password 0x7f1200ac
+int string password_length_error 0x7f1200c0
 int string password_toggle_content_description 0x7f1200ad
 int string path_password_eye 0x7f1200ae
 int string path_password_eye_mask_strike_through 0x7f1200af
@@ -3696,6 +3718,12 @@ int string recommended 0x7f1200b4
 int string register 0x7f1200b5
 int string search_menu_title 0x7f1200b6
 int string status_bar_notification_info_overflow 0x7f1200b7
+int string txt_dont_have_account 0x7f1200ba
+int string txt_have_account 0x7f1200c1
+int string txt_input 0x7f1200c2
+int string txt_intro 0x7f1200bc
+int string txt_login_google 0x7f1200bd
+int string txt_register_google 0x7f1200c3
 int string user 0x7f1200b8
 int string video 0x7f1200b9
 int style AlertDialog_AppCompat 0x7f130000

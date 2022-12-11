@@ -2,7 +2,6 @@ package com.example.siren.views.register
 
 import android.content.Intent
 import android.os.Bundle
-import android.text.TextUtils
 import androidx.appcompat.app.AppCompatActivity
 import com.example.siren.databinding.ActivityRegisterBinding
 import com.example.siren.utils.toast
@@ -41,17 +40,6 @@ class RegisterActivity : AppCompatActivity() {
             val name = binding.etName.text.toString()
             val email = binding.etEmail.text.toString()
             val password = binding.etPassword.text.toString()
-
-            if (TextUtils.isEmpty(name)) {
-                binding.etName.error = "This field is empty"
-                return@setOnClickListener
-            } else if (TextUtils.isEmpty(email)) {
-                binding.etEmail.error = "This field is empty"
-                return@setOnClickListener
-            } else if (TextUtils.isEmpty(password)) {
-                binding.etPassword.error = "This field is empty"
-                return@setOnClickListener
-            }
 
             auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener { task ->
                 if (task.isSuccessful) {

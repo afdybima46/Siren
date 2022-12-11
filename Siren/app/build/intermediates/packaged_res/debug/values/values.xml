@@ -10,7 +10,9 @@
     <string name="app_name">Siren</string>
     <string name="default_web_client_id" translatable="false">322179283121-pa8nb5983ucpdjm5cfo312eet474kpi2.apps.googleusercontent.com</string>
     <string name="email">Email</string>
+    <string name="email_pattern_error">Email is not valid.</string>
     <string name="favorite">Favorite(s)</string>
+    <string name="field_empty">Field cannot be empty</string>
     <string name="firebase_database_url" translatable="false">https://siren-capstone-msib-default-rtdb.asia-southeast1.firebasedatabase.app</string>
     <string name="gcm_defaultSenderId" translatable="false">322179283121</string>
     <string name="google_api_key" translatable="false">AIzaSyBNnrCcdYCLKcatKqeDiCr_VfmDC7iERww</string>
@@ -22,13 +24,20 @@
     <string name="login">Login</string>
     <string name="name">Name</string>
     <string name="password">Password</string>
+    <string name="password_length_error">Min. length password is 6 characters.</string>
     <string name="profile">Profil</string>
     <string name="project_id" translatable="false">siren-capstone-msib</string>
     <string name="recommended">Rekomendasi</string>
     <string name="register">Register</string>
+    <string name="txt_dont_have_account">Belum punya akun?</string>
+    <string name="txt_have_account">Punya kun?</string>
+    <string name="txt_input">Masukkan Data Anda</string>
+    <string name="txt_intro">Mencari informasi dan berbagai tips-tips menarik tentang mendidik anak kini jauh lebih mudah.</string>
+    <string name="txt_login_google">Atau login dengan</string>
+    <string name="txt_register_google">Atau daftar dengan</string>
     <string name="user">" User"</string>
     <string name="video">Video</string>
-    <style name="Theme.Siren" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.Siren" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
